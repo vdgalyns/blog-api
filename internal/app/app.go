@@ -6,12 +6,12 @@ import (
 	"os/signal"
 	"syscall"
 
-	"github.com/radio-pool/backend/config"
-	"github.com/radio-pool/backend/internal/delivery/http"
-	postgresRepository "github.com/radio-pool/backend/internal/repository/postgres"
-	"github.com/radio-pool/backend/internal/usecase"
-	"github.com/radio-pool/backend/pkg/httpserver"
-	"github.com/radio-pool/backend/pkg/postgres"
+	"github.com/vdgalyns/blog-api/config"
+	"github.com/vdgalyns/blog-api/internal/delivery/http"
+	postgresRepository "github.com/vdgalyns/blog-api/internal/repository/postgres"
+	"github.com/vdgalyns/blog-api/internal/usecase"
+	"github.com/vdgalyns/blog-api/pkg/httpserver"
+	"github.com/vdgalyns/blog-api/pkg/postgres"
 )
 
 func Run(cfg *config.Config) {

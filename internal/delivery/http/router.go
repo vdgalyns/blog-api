@@ -6,7 +6,7 @@ import (
 
 	"github.com/go-chi/chi/v5"
 	"github.com/go-chi/chi/v5/middleware"
-	"github.com/radio-pool/backend/internal/domain"
+	"github.com/vdgalyns/blog-api/internal/domain"
 )
 
 func NewRouter(

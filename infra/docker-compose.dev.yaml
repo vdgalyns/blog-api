@@ -1,11 +1,11 @@
 services:
   postgres:
     image: postgres:16-alpine
-    container_name: radiopool-postgres
+    container_name: blog-postgres
     environment:
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: postgres
-      POSTGRES_DB: radiopool_db
+      POSTGRES_DB: blog_db
     ports:
       - "5432:5432"
     volumes:
@@ -23,9 +23,9 @@ services:
     build:
       context: ..
       dockerfile: Dockerfile
-    container_name: radiopool-backend
+    container_name: blo-backend
     environment:
-      POSTGRES_DSN: postgres://postgres:postgres@postgres:5432/radiopool_db?sslmode=disable
+      POSTGRES_DSN: postgres://postgres:postgres@postgres:5432/blog_db?sslmode=disable
       HTTP_PORT: 8080
     ports:
       - "8080:8080"

@@ -5,8 +5,8 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/radio-pool/backend/internal/domain"
-	usecase "github.com/radio-pool/backend/internal/usecase"
+	"github.com/vdgalyns/blog-api/internal/domain"
+	usecase "github.com/vdgalyns/blog-api/internal/usecase"
 )
 
 // MockPostRepository для тестирования

@@ -5,7 +5,7 @@ import (
 	"fmt"
 
 	"github.com/jackc/pgx/v5/pgxpool"
-	"github.com/radio-pool/backend/internal/domain"
+	"github.com/vdgalyns/blog-api/internal/domain"
 )
 
 type CommentRepository struct {

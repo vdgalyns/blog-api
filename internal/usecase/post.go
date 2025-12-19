@@ -5,7 +5,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/radio-pool/backend/internal/domain"
+	"github.com/vdgalyns/blog-api/internal/domain"
 )
 
 type PostUseCase struct {

@@ -6,7 +6,7 @@ import (
 	"strconv"
 
 	"github.com/go-chi/chi/v5"
-	"github.com/radio-pool/backend/internal/domain"
+	"github.com/vdgalyns/blog-api/internal/domain"
 )
 
 type PostHandler struct {

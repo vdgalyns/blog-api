@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/radio-pool/backend/internal/domain"
+	"github.com/vdgalyns/blog-api/internal/domain"
 )
 
 type Response struct {

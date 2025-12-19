@@ -3,8 +3,8 @@ package main
 import (
 	"log"
 
-	"github.com/radio-pool/backend/config"
-	"github.com/radio-pool/backend/internal/app"
+	"github.com/vdgalyns/blog-api/config"
+	"github.com/vdgalyns/blog-api/internal/app"
 )
 
 func main() {

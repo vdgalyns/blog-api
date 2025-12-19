@@ -271,8 +271,7 @@ MIT License - смотрите файл LICENSE для деталей.
 
 ## 📧 Контакты
 
-- GitHub: [@radio-pool](https://github.com/radio-pool)
-- Issues: [Создать issue](https://github.com/radio-pool/backend/issues)
+- Issues: [Создать issue](https://github.com/vdgalyns/blog-api/issues)
 
 ---
 

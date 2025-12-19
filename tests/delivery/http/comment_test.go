@@ -10,8 +10,8 @@ import (
 	"time"
 
 	"github.com/go-chi/chi/v5"
-	httpdelivery "github.com/radio-pool/backend/internal/delivery/http"
-	"github.com/radio-pool/backend/internal/domain"
+	httpdelivery "github.com/vdgalyns/blog-api/internal/delivery/http"
+	"github.com/vdgalyns/blog-api/internal/domain"
 )
 
 // MockCommentUseCase для тестирования COMMENT обработчика
